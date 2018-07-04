@@ -17,7 +17,7 @@ plt.show()
 """
 """
 G=nx.Graph()
-G.add_edges_from([(1,3),(2,4),(3,5),(4,6)], weight = 1)
+G.add_edges_from([(1,3),(2,4),(3,5),(4,6)], weight = 1)dfsfsfafa
 G.add_edges_from([(1,2),(2,3),(3,4),(4,5)], weight = -1)
 
 pos_edges = [(u,v,w) for (u,v,w) in G.edges(data=True) if w['weight']>0]
